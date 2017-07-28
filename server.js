@@ -17,9 +17,10 @@ app.get('/about', function(req, res){
 app.get('/json', function(req, res){
   res.sendFile(path.join(__dirname, 'views/index2.html'));
 });
-app.get('*', function(req, res){
-  res.status(404).sendFile(path.join(__dirname, 'views/index3.html'));
+app.get('/json', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/index3.html'));
 });
+
 //express server listen
 var server = app.listen(app.get('port'), function(){
   console.log('Server listening on port ',app.get('port'));
