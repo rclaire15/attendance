@@ -1,25 +1,15 @@
 {
-  "name": "attendance",
+  "name": "DAMABSIT3SE",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.15.3"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rclaire15/attendance.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rclaire15/attendance/issues"
-  },
-  "homepage": "https://github.com/rclaire15/attendance#readme"
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
